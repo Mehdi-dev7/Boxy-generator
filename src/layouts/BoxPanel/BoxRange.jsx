@@ -33,7 +33,7 @@ export default function BoxRange({ inputData }) {
 					onChange={handleInputs}
 					min={inputData.minMax[0]}
 					max={inputData.minMax[1]}
-					className="w-full h-[2px] bg-gray-300 rounded-lg appearance-none cursor-pointer"
+					className="w-full h-[2px] bg-gray-300 rounded-lg appearance-none cursor-pointer accent-blue-600"
 					type="range"
 				/>
 				<div className="absolute -z-10 top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-0.5 h-7 bg-gray-300 rounded"></div>
