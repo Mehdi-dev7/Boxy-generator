@@ -29,7 +29,7 @@ const initialState = [
 	{
 		inputNumber: 4,
 		name: "Background color",
-		value: "#fff",
+		value: "#rgb",
 		type: "color",
 		slice: "boxProperties",
 	},
@@ -39,7 +39,10 @@ export const boxSlice = createSlice({
 	name: "boxProperties",
 	initialState,
 	reducers: {
-		updateBoxValue: (state, action) => {},
+		updateBoxValue: (state, action) => {
+			state.find((el) => el.inputNumber === action.payload.inputNumber).value =
+				action.payload.value;
+		},
 	},
 });
 
