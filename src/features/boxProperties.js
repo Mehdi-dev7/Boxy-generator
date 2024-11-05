@@ -19,9 +19,9 @@ const initialState = [
 	{
 		inputNumber: 3,
 		name: "Width",
-		value: 15,
+		value: 250,
 		type: "range",
-		minMax: [0, 250],
+		minMax: [0, 500],
 	},
 	{
 		inputNumber: 4,
