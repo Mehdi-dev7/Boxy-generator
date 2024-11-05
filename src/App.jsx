@@ -2,6 +2,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import LeftContainer from "./layouts/LeftContainer";
 
+
 function App() {
 	return (
 		<div className="min-h-screen flex flex-col">
