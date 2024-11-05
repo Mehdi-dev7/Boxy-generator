@@ -23,7 +23,7 @@ const initialState = [
 			},
 			{
 				inputNumber: 3,
-				name: "Blur raduis",
+				name: "Blur radius",
 				value: 15,
 				type: "range",
 				minMax: [0, 250],
@@ -72,7 +72,7 @@ export const shadowsSlice = createSlice({
 					},
 					{
 						inputNumber: 3,
-						name: "Blur raduis",
+						name: "Blur radius",
 						value: 15,
 						type: "range",
 						minMax: [0, 250],

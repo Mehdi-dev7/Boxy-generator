@@ -4,7 +4,7 @@ import { nanoid } from "nanoid";
 const initialState = [
 	{
 		inputNumber: 1,
-		name: "Border raduis",
+		name: "Border radius",
 		value: 25,
 		type: "range",
 		minMax: [0, 250],
